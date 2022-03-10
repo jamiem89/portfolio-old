@@ -1,0 +1,37 @@
+.hero {
+    position: relative;
+    background-color: var(--c-darkest);
+
+    .section-inner {
+        position: relative;
+        flex-direction: column;
+    }
+}
+
+    .hero__blob {
+        position: absolute;
+        display: block;
+        width: 72vw;
+        height: auto;
+        right: -23vw;
+        top: -28vh;
+        z-index: 1;
+
+        svg {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .hero__title {
+        @include f-title;
+        margin-bottom: .5rem;
+        text-align: center;
+        color: var(--c-lightest);
+    }
+
+    .hero__text {
+        text-align: center;
+        @include f-med;
+        color: var(--c-lightest);
+    }

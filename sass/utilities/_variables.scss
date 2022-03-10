@@ -1,0 +1,19 @@
+:root {
+
+    // Colours
+    --c-darkest: #050E13;
+    --c-lightest: #FFF4EB;
+    --c-primary: #F9A4C4;
+    --c-secondary: #73B4F2;
+
+    // Colour theme defaults
+    --text-color: var(--c-darkest);
+    --bg-color: var(--c-lightest);
+
+    // Fonts
+    --f-primary: 'newake';
+
+    // Spacing
+    --padding: .8rem;
+
+}

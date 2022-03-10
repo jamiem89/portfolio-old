@@ -1,0 +1,17 @@
+// Utilities
+@import 'utilities/_normalize.scss';
+@import 'utilities/_media-queries.scss';
+@import 'utilities/_variables.scss';
+@import 'utilities/_fonts.scss';
+@import 'utilities/_font-size.scss';
+@import 'utilities/_typography.scss';
+
+// Sections
+@import 'global/_sections.scss';
+@import 'global/_header.scss';
+@import 'global/_footer.scss';
+
+// Components
+@import 'home/_hero.scss';
+@import 'home/_recent.scss';
+@import 'home/_about.scss';

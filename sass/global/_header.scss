@@ -1,0 +1,26 @@
+.site-header {
+    position: absolute;
+    width: 100%;
+}
+
+    .site-header__nav {
+        ul {
+            text-align: center;
+            margin: 2.5rem 0 0 0;
+            li {
+                display: inline-block;
+
+                &:not(:last-child) {
+                    margin-right: 2.5rem;
+                }
+
+                a {
+                    font-size: 1.3rem;
+                    letter-spacing: .13rem;
+                    text-transform: uppercase;
+                    color: var(--c-lightest);
+                    text-decoration: none;
+                }
+            }
+        }
+    }

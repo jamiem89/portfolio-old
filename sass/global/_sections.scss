@@ -1,0 +1,61 @@
+// Sections
+
+.section {
+    position: relative;
+    display: flex;
+    background-color: var(--bg-color);
+}
+
+    .section--fh {
+        min-height: 100vh;
+        align-items: stretch;
+        .section-inner {
+
+        }
+    }
+
+.section-inner {
+    width: 100%;
+    max-width: 128rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    z-index: 3;
+
+    @include bp(medium) {
+        padding: 4rem;
+    }
+}
+
+    .section-inner--flex-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .section-inner__col {
+        padding-left: 2rem;
+        padding-right: 2rem;
+
+        @include bp(medium) {
+            width: 50%;
+        }
+    }
+
+// Section colours
+
+.bg-dark {
+    --bg-color: var(--c-darkest);
+    --text-color: var(--c-lightest);
+}
+
+.bg-dark {
+    --bg-color: var(--c-darkest);
+    --text-color: var(--c-lightest);
+}
+
+.bg-primary {
+    --bg-color: var(--c-primary);
+    --text-color: var(--c-lightest);
+}

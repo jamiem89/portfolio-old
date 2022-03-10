@@ -1,0 +1,49 @@
+@mixin f-title {
+    font-size: 6rem;
+    line-height: 5rem;
+    letter-spacing: .2rem;
+
+    @include bp(small) {
+        font-size: 12rem;
+        line-height: 11rem;
+    }
+
+    @include bp(large) {
+        font-size: 16.5rem;
+        line-height: 16.5rem;
+    }
+}
+
+@mixin f-section-title {
+    font-size: 6rem;
+    letter-spacing: .4rem;
+    line-height: 5.5rem;
+
+    @include bp(large) {
+        font-size: 12.5rem;
+        letter-spacing: .4rem;
+        line-height: 11.5rem;
+    }
+}
+
+@mixin f-med {
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+
+    @include bp(medium) {
+        font-size: 2rem;
+    }
+
+    @include bp(large) {
+            font-size: 2.6rem;
+    }
+}
+
+@mixin f-reg {
+    font-size: 2.2rem;
+}
+
+@mixin f-sml {
+    font-size: 1.3rem;
+    letter-spacing: .13rem;
+}

@@ -1,0 +1,19 @@
+.recent__circle {
+    position: absolute;
+    display: block;
+    width: 42vw;
+    height: 42vw;
+    left: -18vw;
+    top: -21vw;
+    border-radius: 100%;
+    background: rgb(114,179,241);
+    background: linear-gradient(298deg, rgba(114,179,241,1) 0%, rgba(249,164,196,1) 75%);
+}
+
+.recent-work__list {
+    @include f-med;
+    li {
+        list-style-type: none;
+        margin-bottom: 4.2rem;
+    }
+}
